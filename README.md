@@ -7,7 +7,7 @@ PoV mod from Koikatu ported to Koikatsu Sunshine.
 
 ## Installation
 <details>
-  <summary>Extract the `BepInEx` folder in the game directory.</summary>
+Extract the `BepInEx` folder in the game directory.
 </details>
 
 
