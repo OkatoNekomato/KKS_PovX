@@ -1,4 +1,4 @@
-# KK_PovX
+# KKS_PovX
 PoV mod from Koikatu ported to Koikatsu Sunshine.
 
 ## Requirements
