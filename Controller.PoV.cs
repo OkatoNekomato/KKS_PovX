@@ -46,7 +46,7 @@ namespace KK_PovX
 
                     if (Tools.HasPlayerMovement())
                     {
-                        // Новый способ поиска объекта игрока
+                        
                         GameObject playerObject = GameObject.FindWithTag("Player"); // Замените на реальный тег игрока, если он другой
                         if (playerObject != null)
                         {
