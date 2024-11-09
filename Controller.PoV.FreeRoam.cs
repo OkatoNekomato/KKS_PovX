@@ -8,7 +8,7 @@ namespace KK_PovX
     {
         public static void SetRotationFreeRoamPoV()
         {
-            // Найти объект игрока через тег
+            
             GameObject playerObject = GameObject.FindWithTag("Player");
             if (playerObject == null)
             {
@@ -27,7 +27,7 @@ namespace KK_PovX
 
             if (!KK_PovX.RotateHeadFirst.Value || nextPosition != prevPosition)
             {
-                // Move entire body when moving.
+                
                 bodyAngle = cameraAngleY;
                 bodyQuaternion = Quaternion.Euler(0f, bodyAngle, 0f);
             }
@@ -67,7 +67,7 @@ namespace KK_PovX
             );
         }
 
-        // PoV exclusively for the player, when the player has movement.
+        
         public static void CameraPoVFreeRoam()
         {
             if (inScenePoV)
